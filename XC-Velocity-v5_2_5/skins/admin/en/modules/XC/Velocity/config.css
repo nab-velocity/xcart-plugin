@@ -1,0 +1,35 @@
+/* vim: set ts=2 sw=2 sts=2 et: */
+
+/**
+ * Styles for Velocity config page
+ *
+ * @author    Velocity Team
+ * @copyright Copyright (c) 2015-2016 Velocity. All rights reserved
+ * @license   
+ * @link      http://nabvelocity.com/
+ */
+
+.velocity-style .note {
+  font-size: 14px;
+  margin-bottom: 14px;
+  float: none;
+}
+
+.velocity-style .webhook {
+  margin-bottom: 13px;
+}
+
+.velocity-style .webhook .url {
+  font-size: 16px;
+  padding: 7px 18px 7px;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border: solid 1px #efefef;
+  background: #f8f8f8;
+  color: #8f8f8f;
+  width: auto;
+  display: inline-block;
+  white-space: nowrap;
+  float: none;
+}

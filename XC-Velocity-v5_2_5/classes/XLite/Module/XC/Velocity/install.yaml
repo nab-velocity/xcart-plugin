@@ -1,0 +1,27 @@
+# vim: set ts=2 sw=2 sts=2 et:
+#
+# Fixtures
+#
+# @author    Velocity Team
+# @copyright Copyright (c) 2015-2016 Velocity. All rights reserved
+# @license   
+# @link      http://nabvelocity.com/
+
+XLite\Model\Payment\Method:
+  - service_name: Velocity
+    class: Module\XC\Velocity\Model\Payment\Processor\Velocity
+    type: C
+    countries: [US]
+    translations:
+      - code: en
+        name: 'Credit Card By Velocity'
+    settings:
+      - name: identitytoken
+      - name: workflowid
+      - name: applicationprofileid
+      - name: merchantprofileid
+      - name: mode
+        value: test
+
+XLite\Model\LanguageLabel:
+  - { name: 'Identity Token', translations: [{ code: 'en', label: 'Identity Token' }] }
